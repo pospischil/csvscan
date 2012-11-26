@@ -15,7 +15,7 @@ static const int csv_scan_error = 1;
 
 #line 73 "csvscan.rl"
 
-#define BUFSIZE 131072
+#define BUFSIZE 262144
 
 VALUE csv_scan(VALUE self, VALUE port) {
     int cs, act, have = 0, nread = 0, curline = 1;
