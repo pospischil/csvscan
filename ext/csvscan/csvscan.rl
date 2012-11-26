@@ -71,7 +71,7 @@ static ID s_read, s_to_str;
 
 %% write data nofinal;
 
-#define BUFSIZE 131072
+#define BUFSIZE 262144
 
 VALUE csv_scan(VALUE self, VALUE port) {
     int cs, act, have = 0, nread = 0, curline = 1;
